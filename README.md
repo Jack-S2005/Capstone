@@ -32,7 +32,7 @@ This project explores various machine learning techniques for face recognition, 
 - **Face Detection**: Using `face_recognition` library to detect and crop faces
 - **Image Resizing**: Standardized to 128x128 pixels
 - **Normalization**: Pixel values scaled to [0,1] range
-- **Train/Test Split**: 80/20 split with stratification
+- **Train/Test Split**: 70/30 split with stratification
 
 ### 2. Machine Learning Models
 
