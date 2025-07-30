@@ -65,19 +65,24 @@ This project explores various machine learning techniques for face recognition, 
 ## 📈 Results
 
 ### Model Performance Comparison
-| Method | Accuracy | Notes |
-|--------|----------|-------|
-| KNN (k=11, manhattan) | ~0.85 | Best traditional method |
-| ResNet50V2 (Transfer Learning) | ~0.92 | Best overall performance |
-| Custom CNN | ~0.50 | Baseline deep learning |
-| Face Recognition Library | ~0.90 | Specialized face method |
-| Triplet Loss + KNN | ~0.88 | Improved embeddings |
+| Method | Accuracy | Rank | Notes |
+|--------|----------|------|-------|
+| Face Recognition Library | 0.998 | 1 | Best performing method |
+| ResNet50V2 (Transfer Learning) | 0.569 | 2 | Best deep learning approach |
+| Custom CNN | 0.527 | 3 | Baseline deep learning |
+| KNN (k=11, manhattan) | 0.293 | 4 | Traditional machine learning |
+
+### Performance Analysis
+- **Mean accuracy** across all methods: 0.597
+- **Standard deviation**: 0.254
+- **Best performing method**: Face Recognition Library (0.998)
 
 ### Key Findings
-1. **Transfer Learning** performs best due to pre-trained features
-2. **KNN with optimized parameters** provides strong baseline performance
-3. **Face cropping** significantly improves all model performances
-4. **Triplet loss** enhances embedding quality for distance-based methods
+1. **Face Recognition Library** significantly outperforms all other methods with 99.8% accuracy
+2. **Transfer Learning (ResNet50V2)** is the best deep learning approach at 56.9%
+3. **Custom CNN** provides baseline deep learning performance at 52.7%
+4. **KNN** shows lower performance at 29.3%, likely due to high-dimensional image data
+5. **Face cropping and preprocessing** were crucial for the face recognition library's success
 
 ## 🚀 Getting Started
 
