@@ -10,7 +10,6 @@ This project explores various machine learning techniques for face recognition, 
 
 - **Multiple ML Approaches**: KNN, Custom CNN, Transfer Learning (ResNet50V2), and Face Recognition Library
 - **Comprehensive Evaluation**: Per-celebrity accuracy analysis, confusion matrices, and detailed performance metrics
-- **Advanced Techniques**: Triplet loss implementation for improved embeddings
 - **Data Preprocessing**: Face detection, cropping, and image normalization
 - **Grid Search Optimization**: Automated hyperparameter tuning for KNN
 
