@@ -25,7 +25,7 @@ This project explores various machine learning techniques for face recognition, 
 - Total images: ~1,700
 - Number of celebrities: 17
 - Average images per celebrity: ~100
-- Image resolution: 128x128x3 (RGB)
+- Image resolution (Downsampled): 128x128x3 (RGB) 
 
 ## 🛠️ Technical Implementation
 
@@ -158,10 +158,8 @@ pandas==2.3.0
 ## 🎯 Future Improvements
 
 1. **Data Augmentation**: Expand dataset with synthetic variations
-2. **Ensemble Methods**: Combine multiple model predictions
-3. **Advanced Architectures**: Try newer models like EfficientNet
-4. **Real-time Processing**: Optimize for live face recognition
-5. **Multi-modal Fusion**: Combine facial features with other biometrics
+2. **Data Extraction**: Explore the use of different facial extractors on the training
+3. **Use Embeddings**: Optimize own CNN to use embeddings and see if an improvment materializes
 
 ## 📝 Methodology
 
@@ -169,7 +167,7 @@ pandas==2.3.0
 1. **Data Preparation**: Face detection, cropping, and normalization
 2. **Model Training**: Multiple approaches with consistent train/test split
 3. **Evaluation**: Comprehensive metrics and visualizations
-4. **Comparison**: Fair comparison across all methods
+4. **Comparison**: Comparison across all methods
 5. **Optimization**: Hyperparameter tuning for best performance
 
 ### Evaluation Metrics
