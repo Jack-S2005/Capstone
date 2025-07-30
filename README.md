@@ -81,7 +81,7 @@ This project explores various machine learning techniques for face recognition, 
 1. **Face Recognition Library** significantly outperforms all other methods with 99.8% accuracy
 2. **Transfer Learning (ResNet50V2)** is the best deep learning approach at 56.9%
 3. **Custom CNN** provides baseline deep learning performance at 52.7%
-4. **KNN** shows lower performance at 29.3%, likely due to high-dimensional image data
+4. **KNN** shows lower performance at 29.3%
 5. **Face cropping and preprocessing** were crucial for the face recognition library's success
 
 ## 🚀 Getting Started
@@ -99,9 +99,6 @@ pip install -r requirements.txt
 
 ### Usage
 ```python
-# Load and preprocess data
-from dataset_diagnostic import load_dataset, diagnose_dataset
-images, labels, paths = load_dataset()
 
 # Run face recognition analysis
 # See capstone.ipynb for complete implementation
@@ -179,7 +176,7 @@ pandas==2.3.0
 - **Accuracy**: Overall classification accuracy
 - **Per-class Accuracy**: Individual celebrity performance
 - **Confusion Matrix**: Detailed error analysis
-- **Cross-validation**: Robust performance estimation
+
 
 ## 📄 License
 
